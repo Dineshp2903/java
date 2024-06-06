@@ -8,15 +8,15 @@ public class ComparatorExample {
 
     public static void main(String[] args) {
         Person p1 = new Person();
-        p1.setName("Dinesh");
+        p1.setName("Person1");
         p1.setAge(30);
 
         Person p2 = new Person();
-        p2.setName("Chithu");
+        p2.setName("Person2");
         p2.setAge(25);
 
         Person p3 = new Person();
-        p3.setName("Yaazhl Kutti");
+        p3.setName("Person 3");
         p3.setAge(1);
 
         List<Person> people = Arrays.asList(
